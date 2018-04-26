@@ -416,7 +416,11 @@ footer p.copy {
     display: none !important; }
 
   #cover_area {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  .three.columns {
+    width: 23%;
+    margin-left: 3%; } }
 @media (max-width: 640px) {
   h1 {
     text-align: center; }
@@ -485,27 +489,29 @@ footer p.copy {
     width: auto !important;
     padding: 0 10px; }
 
-  #right_colum .search_box {
-    padding: 25px 20px; }
-    #right_colum .search_box span {
-      margin: 0; }
-    #right_colum .search_box img {
-      display: none; }
-  #right_colum .other h3 {
-    display: block;
-    background: #887f69;
-    padding: 15px 10px;
-    margin: 10px 0;
-    line-height: 0; }
-  #right_colum .other .inner {
-    overflow: hidden; }
-    #right_colum .other .inner img {
-      float: left;
-      width: 45%;
-      margin-right: 10px; }
-    #right_colum .other .inner a img {
-      width: 101px !important;
-      display: block; }
+  #right_colum .inner {
+    padding: 0 10px; }
+    #right_colum .inner .search_box {
+      padding: 25px 20px; }
+      #right_colum .inner .search_box span {
+        margin: 0; }
+      #right_colum .inner .search_box img {
+        display: none; }
+    #right_colum .inner .other h3 {
+      display: block;
+      background: #887f69;
+      padding: 15px 10px;
+      margin: 10px 0;
+      line-height: 0; }
+    #right_colum .inner .other .inner {
+      overflow: hidden; }
+      #right_colum .inner .other .inner img {
+        float: left;
+        width: 45%;
+        margin-right: 10px; }
+      #right_colum .inner .other .inner a img {
+        width: 101px !important;
+        display: block; }
 
   .pagetop {
     text-align: center;

@@ -411,149 +411,148 @@ html {
 h2 {
     font-size: 0;
 }
-.search_box {
-    background: #ffffff;
-    padding: 10px 20px 20px;
-    margin-bottom: 10px;
-    
-      span {
-        display: block;
-        margin: 0 auto 5px;
-      }
-    
-    #form02 {
-        background-color: #eeeeee;
-        height: 30px;
-        margin: 0;
-        position: relative;
-        
-           input{
-                vertical-align: top;
-                margin: 0px;
-                height: 100%;
-                box-sizing: border-box;
-                background-color: transparent;
-           }
-    
-          #input02{
-              border: none;
-              width: 100%;
-              padding-left: 10px;
-              position: relative;
-              font-size: 12px;
-              opacity: 0.6;
-            
-          }
-          #submit02{
-              width: 16px;
-              height: 20px;
-              padding: 0;
-              border: none;
-              background-image: url(../images/top/search_icon.png);
-              background-repeat: no-repeat;
-              position: absolute;
-              top: 7px;
-              right: 8px;
-          }
-    }
-}
-.sidemenu {
-    .menu_title {
-        display: block;
-        background: $color1;
-        padding: 10px;
-        margin-top: 10px;
-        position: relative;
-        
-            &:after {
-              content: '';
-              display: block;
-              width: 8px;
-              height: 14px;
-              background: url(../images/top/next_icon.png) no-repeat center center;
-              position: absolute;
-              padding: 0;
-              margin: 0;
-              top: 34%;
-              right: 8%;
-            }
-            &.active {
-              &:after {
-                content: '';
-                display: block;
-                width: 14px;
-                height: 8px;
-                background: url(../images/top/down_icon.png) no-repeat center center;
-                position: absolute;
-                padding: 0;
-                margin: 0;
-                top: 43%;
-                right: 7%;
-              }
-            }
 
-    }
+    .search_box {
+        background: #ffffff;
+        padding: 10px 20px 20px;
+        margin-bottom: 10px;
         
-              li {
-                display: block;
-                padding: 16px;
-                background: #ffffff;
-                margin: 0;
-                font-size: 12px;
-                border-bottom: 1px solid $base_color;
-                position: relative;
+          span {
+            display: block;
+            margin: 0 auto 5px;
+          }
+        
+        #form02 {
+            background-color: #eeeeee;
+            height: 30px;
+            margin: 0;
+            position: relative;
+            
+               input{
+                    vertical-align: top;
+                    margin: 0px;
+                    height: 100%;
+                    box-sizing: border-box;
+                    background-color: transparent;
+               }
+        
+              #input02{
+                  border: none;
+                  width: 100%;
+                  padding-left: 10px;
+                  position: relative;
+                  font-size: 12px;
+                  opacity: 0.6;
                 
-                a {
-                  color: #000000;
-                }
-                
-                 &:after {
+              }
+              #submit02{
+                  width: 16px;
+                  height: 20px;
+                  padding: 0;
+                  border: none;
+                  background-image: url(../images/top/search_icon.png);
+                  background-repeat: no-repeat;
+                  position: absolute;
+                  top: 7px;
+                  right: 8px;
+              }
+        }
+    }
+      .sidemenu {
+          .menu_title {
+              display: block;
+              background: $color1;
+              padding: 10px;
+              margin-top: 10px;
+              position: relative;
+              
+                  &:after {
                     content: '';
                     display: block;
                     width: 8px;
                     height: 14px;
-                    background: url(../images/top/next_icon_gray.png) no-repeat center center;
+                    background: url(../images/top/next_icon.png) no-repeat center center;
                     position: absolute;
                     padding: 0;
                     margin: 0;
                     top: 34%;
                     right: 8%;
-                 }
-              }
-              
-            .category01 {
-                display: none;
-            }
-  
-
-
-}
-
-.other {
-  background: #ffffff;
-  
-  h3 {
-    display: block;
-    background: #887f69;
-    padding: 10px;
-    margin: 10px 0;
-    line-height: 0;
-  }
-    .inner {
-      padding: 0 10px 15px;
+                  }
+                  &.active {
+                    &:after {
+                      content: '';
+                      display: block;
+                      width: 14px;
+                      height: 8px;
+                      background: url(../images/top/down_icon.png) no-repeat center center;
+                      position: absolute;
+                      padding: 0;
+                      margin: 0;
+                      top: 43%;
+                      right: 7%;
+                    }
+                  }
       
-      .text {
-        font-size: 12px;
-        margin-bottom: 10px;
+          }
+              
+                    li {
+                      display: block;
+                      padding: 16px;
+                      background: #ffffff;
+                      margin: 0;
+                      font-size: 12px;
+                      border-bottom: 1px solid $base_color;
+                      position: relative;
+                      
+                      a {
+                        color: #000000;
+                      }
+                      
+                       &:after {
+                          content: '';
+                          display: block;
+                          width: 8px;
+                          height: 14px;
+                          background: url(../images/top/next_icon_gray.png) no-repeat center center;
+                          position: absolute;
+                          padding: 0;
+                          margin: 0;
+                          top: 34%;
+                          right: 8%;
+                       }
+                    }
+                    
+                  .category01 {
+                      display: none;
+                  }
+      }
+
+    .other {
+      background: #ffffff;
+      
+      h3 {
+        display: block;
+        background: #887f69;
+        padding: 10px;
+        margin: 10px 0;
+        line-height: 0;
+      }
+        .inner {
+          padding: 0 10px 15px;
+          
+          .text {
+            font-size: 12px;
+            margin-bottom: 10px;
+            }
+            
+            a {
+              display: block;
+              text-align: center;
+            }
         }
-        
-        a {
-          display: block;
-          text-align: center;
-        }
+      
     }
-  
-}
+
 .pagetop {
     text-align: right;
     margin-bottom: 10px;
@@ -645,6 +644,7 @@ footer {
       
       
       
+//-------------------------------------------------//
 
     @media (min-width: 640px) {
       
@@ -670,10 +670,16 @@ footer {
     margin-top: 40px;
     }
 
-
+.three {
+    &.columns {
+      width: 23%;
+      margin-left: 3%;
+    }
+}
 
     }
-  
+    
+//-------------------------------------------------//
     @media (max-width: 640px) {
       
       h1 {
@@ -802,6 +808,9 @@ footer {
 }
       
       #right_colum {
+        .inner {
+          padding: 0 10px;
+      
         .search_box {
             padding: 25px 20px;
             
@@ -836,6 +845,7 @@ footer {
             }
           }
         }
+      }
     }
     
     .pagetop {
